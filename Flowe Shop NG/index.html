@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300,500..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Flower Shop NG</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="namediv">
+        <a href="#home">
+          <ion-icon name="flower-outline" class="flower-icon"></ion-icon>
+        </a>
+        <div>
+          <p class="name">NG</p>
+          <p class="description">FLOWER SHOP</p>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul class="navlist">
+          <li>
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#shopscroll">SHOP</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#floristscroll">FLORISTS </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#categoryscroll">CATEGORY</a>
+          </li>
+          <li>
+            <a class="nav-link nav-contact" href="#footer">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home" class="main">
+      <section class="hero-section">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            Make your life <br />
+            <span class="more">more natural</span>
+          </h1>
+          <span class="hero-span">
+            A flower, sometimes known as a bloom or blossom, is the <br />
+            reproductive structure found in flowering plants (plants of the
+            <br />
+            division Magnoliophyta, also called angiosperms).
+          </span>
+        </div>
+        <a href="#" class="btn">Order now </a>
+        <div class="hero-img" role="img" aria-label="flower"></div>
+      </section>
+
+      <section id="shopscroll" class="shop">
+        <h2 class="heading-secondary">
+          Best seller <span class="greentext">flowers</span>
+        </h2>
+        <div class="container">
+          <div class="container-div">
+            <div class="cont-div">
+              <img src="img/plant1.jpg" class="container-img" alt="" />
+              <span class="plant-name">Snake plant</span>
+              <span class="price"><strong>$</strong>125</span>
+            </div>
+          </div>
+          <div class="container-div">
+            <div class="cont-div">
+              <img src="img/plant2.jpg" class="container-img" alt="" />
+              <span class="plant-name">Homalomena</span>
+              <span class="price"><strong>$</strong>95</span>
+            </div>
+          </div>
+          <div class="container-div">
+            <div class="cont-div">
+              <img src="img/plant3.jpg" class="container-img" alt="" />
+              <span class="plant-name">Golden plant</span>
+              <span class="price"><strong>$</strong>105</span>
+            </div>
+          </div>
+          <div class="container-div">
+            <div class="cont-div">
+              <img src="img/plant4.jpg" class="container-img" alt="" />
+              <span class="plant-name">Gandelabra</span>
+              <span class="price"><strong>$</strong>200</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="view-more">View More</a>
+      </section>
+
+      <section id="floristscroll" class="florist">
+        <div class="florist-div">
+          <div class="florist-grid">
+            <div class="florist-text">
+              <h3 class="heading-third">
+                "Flowers that inspire, plants that thrive."
+              </h3>
+              <p class="florist-p">
+                At NG, our talented florists and plant experts create stunning
+                floral arrangements and help you find the perfect plants for
+                your space. With a love for nature and years of experience, we
+                handcraft unique bouquets and offer a variety of houseplants to
+                brighten your home or office. Whether you're looking for fresh
+                flowers or greenery, we’re here to bring your vision to life.
+              </p>
+            </div>
+
+            <img src="img/florist.jpg" class="florist-img" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="categoryscroll" class="categorie-section">
+        <h2 class="heading-secondary">
+          <span class="greentext">Most popular</span> Categories
+        </h2>
+        <div class="categorie">
+          <div class="categories">
+            <div class="categorie-overlay">
+              <img class="categorie-img" src="img/bouqet.jpg" alt="" />
+              <div class="categories-header">Wedding bouquets</div>
+            </div>
+          </div>
+          <div class="categories">
+            <div class="categorie-overlay">
+              <img class="categorie-img" src="img/houseplant.jpg" alt="" />
+              <div class="categories-header">House plants</div>
+            </div>
+          </div>
+          <div class="categories rose">
+            <div class="categorie-overlay">
+              <img class="categorie-img ros" src="img/roses.jpg" alt="" />
+              <div class="categories-header">Variations of roses</div>
+            </div>
+          </div>
+          <div class="categories wedding">
+            <div class="categorie-overlay">
+              <img class="categorie-img wed" src="img/wedding.jpg" alt="" />
+              <div class="categories-header">Decorative flowers</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-div">
+        <div class="footer-logos">
+          <ion-icon
+            name="flower-outline"
+            class="flower-icon footer-icon"
+          ></ion-icon>
+          <div class="footer-icons">
+            <ion-icon name="logo-facebook" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-twitter" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-instagram" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-tiktok" class="footer-logo"></ion-icon>
+          </div>
+        </div>
+        <div class="pp">
+          <p>copyright © 2024 by NiniGumb.</p>
+          <p>All rights reserved</p>
+        </div>
+      </div>
+
+      <div class="footer-divtwo">
+        <p class="footer-heading">Contact us</p>
+        <a href="#" class="footer-link">Tbilisi,Georgia</a>
+        <a href="tel:84-385-29" class="footer-link">599-84-385-29</a>
+        <a href="mailto:ng@gmail.com" class="footer-link">ng@gmail.com</a>
+      </div>
+      <nav class="footer-nav">
+        <p class="footer-heading">Account</p>
+        <ul class="footer-list">
+          <li><a class="footer-link" href="#">Create account</a></li>
+          <li><a class="footer-link" href="#">Sign in</a></li>
+          <li><a class="footer-link" href="#">iOS app</a></li>
+          <li><a class="footer-link" href="#">Android app</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <p class="footer-heading">company</p>
+        <ul class="footer-list">
+          <li><a class="footer-link" href="#">About NG</a></li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <p class="footer-heading">Resources</p>
+        <ul class="footer-list">
+          <li><a class="footer-link" href="#">Shop directory</a></li>
+          <li><a class="footer-link" href="#">Help center</a></li>
+          <li><a class="footer-link" href="#">Privacy & terms</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

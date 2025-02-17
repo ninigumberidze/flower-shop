@@ -1,0 +1,47 @@
+/* 
+colors #16451f
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  color: #555;
+  background-color: #fff;
+}
+
+.heading-primary {
+  font-size: 7.2rem;
+  color: #eaf3ec;
+  line-height: 1;
+  font-weight: 400;
+  text-shadow: 0 0.6rem 1.8rem rgba(0, 0, 0, 0.25);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  background-color: #95c59f;
+  padding: 1.2rem 2.4rem 1.2rem 2.4rem;
+  width: 12%;
+  color: #040e06;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  color: #eaf3ec;
+  background-color: #16451f;
+}
